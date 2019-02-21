@@ -1,7 +1,7 @@
 # CodeTest
 Please review my sample code as per the questions asked
 
-##Question 1. 
+## Question 1. 
 a. write a function that returns true if a  prime number
 
 ``
@@ -19,7 +19,7 @@ c. memorize prime function
 ``
 
 
-##Question 2.
+## Question 2.
 Binary search on the collection.
 
 ``binarySearch(int collection[], int searchVal) :  returns the position of the search item nad -1 if the item doesn't exist in the collection

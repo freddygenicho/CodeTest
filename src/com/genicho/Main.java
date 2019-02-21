@@ -16,7 +16,7 @@ public class Main {
         System.out.println("memorize: " + memorize(checkIfPrime(2)));
 
         //searches for 2 in the collection
-        System.out.println("position: " + search(collection, 8));
+        System.out.println("position: " + binarySearch(collection, 8));
     }
 
 
@@ -54,7 +54,7 @@ public class Main {
      * @param searchVal  - item to search in the list
      * @return position of the item in the list
      */
-    private static int search(int collection[], int searchVal) {
+    private static int binarySearch(int collection[], int searchVal) {
         // sorting array
         Arrays.sort(collection);
         int position = Arrays.binarySearch(collection, searchVal);
